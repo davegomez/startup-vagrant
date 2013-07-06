@@ -10,9 +10,9 @@ The environment already have the [modfications introduced by the teachers](https
 
 2. Clone this repository into your project directory with this commmand:
 
-	git clone git://github.com/davegomez/startup-vagrant.git
+		git clone git://github.com/davegomez/startup-vagrant.git
 
-Or download it directly from [GitHub](http://github.com/davegomez/startup-vagrant).
+	Or download it directly from [GitHub](http://github.com/davegomez/startup-vagrant).
 
 ###Usage
 
@@ -20,12 +20,12 @@ Or download it directly from [GitHub](http://github.com/davegomez/startup-vagran
 
 1. Install and configure your Vagrant environmet using these commands on your terminal or command line window inside the project directory.
 
-	vagrant box add precise64 http://files.vagrantup.com/precise64.box
-	vagrant up
+		vagrant box add precise64 http://files.vagrantup.com/precise64.box
+		vagrant up
 
 2. Get in the virtual environment using the command `vagrant ssh` to rebuild the VBoxAdditions package using this command:
 
-	sudo /etc/init.d/vboxadd setup
+		sudo /etc/init.d/vboxadd setup
 
 3. Get out of the virtual environment using the command `exit`.
 
