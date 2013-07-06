@@ -4,9 +4,18 @@ This is an easy to install [Vagrant](http://www.vagrantup.com/) environment for 
 
 The environment already have the [modifications introduced by the teachers](https://d396qusza40orc.cloudfront.net/startup/lecture_slides%2Flecture4b-developer-environment.pdf) in the last lecture for the **Shell** and the applications including **Emacs**, also, the environment include a **NGINX** web server so you can test your work in a close to real environment.
 
+####Includes:
+
+* Node.js v0.10.12
+	* JSHint
+* Emacs v24.3
+	* rlwrap
+* NGINX v1.5.2
+* And the latest dotfiles include in the [startup-class/setup](https://github.com/startup-class/setup) GitHub repository
+
 ###Instalation
 
-1. Install the latest version of [Vagrant](http://downloads.vagrantup.com/tags/v1.2.2) in your computer.
+1. Install the latest version of [Vagrant](http://downloads.vagrantup.com/tags/v1.2.2) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on your computer.
 
 2. Clone this repository into your project directory with this commmand:
 
@@ -16,7 +25,7 @@ The environment already have the [modifications introduced by the teachers](http
 
 ###Usage
 
-**Note:** this tutorial is setup for 64bit systems, if you have a 32bit system you have to replace number 64 to 32 in every file.
+**Note:** this tutorial is setup for 64bit systems, if you have a 32bit system then you just have to replace the number 64 to 32 in every file.
 
 1. Install and configure your Vagrant environmet using these commands on your terminal or command line window inside the project directory.
 
@@ -39,4 +48,4 @@ The environment already have the [modifications introduced by the teachers](http
 
 ###Recomendation
 
-Learn how to use the **Vagrant** enviroment from the command line with the [project documentation](http://docs.vagrantup.com/v2/cli/index.html).
+Learn how to use the **Vagrant** enviroment from command line with the [project documentation](http://docs.vagrantup.com/v2/cli/index.html).
