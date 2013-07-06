@@ -1,6 +1,6 @@
 ##Coursera's Startup Engineering Vagrant Environment
 
-This is an easy to install Vagrant environment for Coursera's Startup Engineering program students who can't get an AWS account for cloud development.
+This is an easy to install [Vagrant](http://www.vagrantup.com/) environment for Coursera's Startup Engineering program students who can't get an AWS account for cloud development.
 
 The environment already have the [modifications introduced by the teachers](https://d396qusza40orc.cloudfront.net/startup/lecture_slides%2Flecture4b-developer-environment.pdf) in the last lecture for the **Shell** and the applications including **Emacs**, also, the environment include a **NGINX** web server so you can test your work in a close to real environment.
 
@@ -39,4 +39,4 @@ The environment already have the [modifications introduced by the teachers](http
 
 ###Recomendation
 
-Learn how to use Vagrant enviroment from the command line with the [project documentation](http://docs.vagrantup.com/v2/cli/index.html).
+Learn how to use the **Vagrant** enviroment from the command line with the [project documentation](http://docs.vagrantup.com/v2/cli/index.html).
