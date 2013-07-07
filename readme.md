@@ -44,12 +44,14 @@ The environment already have the [modifications introduced by the teachers](http
 
 6. Reload the Vagrant environment using the command `vagrant reload`.
 
-7. Finally we can test if everything is working putting this address `127.0.0.1:8989` in our favorite web browser.
+7. Get in the virtual environment using the command `vagrant ssh`, clone and execute the setup.sh file using the following commands:
+
+		cd $HOME
+		git clone https://github.com/startup-class/setup.git
+		./setup/setup.sh
+
+8. Finally we can test if everything is working putting this address `127.0.0.1:8989` in our favorite web browser.
 
 ###Recomendation
 
 Learn how to use the **Vagrant** enviroment from command line with the [project documentation](http://docs.vagrantup.com/v2/cli/index.html).
-
-###Troubleshooting
-
-Due to some problem I can't understand yet. Sometimes the setup script is incapable of clone and symlink the course's dotfiles folder and files, so I recommend to follow the instructions published in the [course's GitHub repository](https://github.com/startup-class/dotfiles).
