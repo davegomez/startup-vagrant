@@ -49,3 +49,7 @@ The environment already have the [modifications introduced by the teachers](http
 ###Recomendation
 
 Learn how to use the **Vagrant** enviroment from command line with the [project documentation](http://docs.vagrantup.com/v2/cli/index.html).
+
+###Troubleshooting
+
+Due to some problem I can't understand yet. Sometimes the setup script is incapable of clone and symlink the course's dotfiles folder and files, so I recommend to follow the instructions published in the [course's GitHub repository](https://github.com/startup-class/dotfiles).
